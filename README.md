@@ -103,27 +103,7 @@ Predict accident severity (1–4) using demographic, environmental, and weather-
 *Visuals:*  
 - Correlation matrix (`GGally`)  
 - Logistic regression fit plots
-
----
-
-## Summary of Findings
-
-| Predictor        | Influence on Severity                     | Notes |
-|------------------|--------------------------------------------|-------|
-| **Population**   | Strongest predictor                        | High population areas → higher severity |
-| **Density**      | Moderate                                   | Urban areas → more severe crashes |
-| **Humidity**     | Moderate                                   | Low humidity → higher severity |
-| **Distance (mi)**| Moderate                                   | Shorter trips → higher severity |
-| **Weather vars** | Weak                                       | Temperature, wind speed less predictive |
-
----
-
-## Tools and Methods Used
-
-- **R** for data cleaning, visualization, and modeling  
-- **kNN**, **Classification Trees**, **Bagging**, and **Logistic Regression**  
-- **Visualization:** `ggplot2`, `GGally`, `leaflet`, `vip`  
-- **Feature Selection:** `bestglm`, `step()`  
+ 
 
 ---
 
@@ -136,7 +116,16 @@ Predict accident severity (1–4) using demographic, environmental, and weather-
 
 ---
 
-**Author:** Mia Parker*  
+## Tools and Methods Used
+
+- **R** for data cleaning, visualization, and modeling  
+- **kNN**, **Classification Trees**, **Bagging**, and **Logistic Regression**  
+- **Visualization:** `ggplot2`, `GGally`, `leaflet`, `vip`  
+- **Feature Selection:** `bestglm`, `step()` 
+
+---
+
+**Author:** Mia Parker  
 **Language:** R  
 
 ---
