@@ -3,6 +3,7 @@
 **Language:** R  
 **Libraries:** `tidyverse`, `GGally`, `caret`, `rpart`, `rpart.plot`, `ipred`, `readr`, `class`, `bestglm`  
 **Dataset:** U.S. Car Accidents (Kaggle) — 500K sampled accidents (2016–2023) across 49 states  
+**Group Project:** Completed as part of a collaborative team effort.
 
 ---
 
