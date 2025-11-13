@@ -107,12 +107,17 @@ Predict accident severity (1–4) using demographic, environmental, and weather-
 
 ---
 
-## Key Takeaways
+## Key Findings
 
-- Urban and demographic context (population, density) drives severity more than weather conditions.  
-- Ensemble methods like **bagging** outperform single decision trees.  
-- Logistic regression was less effective due to the complex, non-linear nature of the data.  
-- Future work: test **random forests** or **gradient boosting** for higher predictive accuracy.
+### Severity Insights
+- Urban and demographic context (population, density) drives accident severity more than weather conditions  
+- Low distance + low humidity → more severe crashes (Severity 3)  
+- High population → more severe crashes (Severity 4)  
+- Low population → moderate crashes (Severity 2)  
+
+### Model Performance
+- Bagging ensemble outperforms single decision tree  
+- Logistic regression less effective due to complex, non-linear relationships  
 
 ---
 
