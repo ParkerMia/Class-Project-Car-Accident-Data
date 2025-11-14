@@ -119,19 +119,3 @@ Predict accident severity (1–4) using demographic, environmental, and weather-
 ### Model Performance
 - Bagging ensemble outperforms single decision tree  
 - Logistic regression less effective due to complex, non-linear relationships  
-
----
-
-## Tools and Methods Used
-
-- **R** for data cleaning, visualization, and modeling  
-- **kNN**, **Classification Trees**, **Bagging**, and **Logistic Regression**  
-- **Visualization:** `ggplot2`, `GGally`, `leaflet`, `vip`  
-- **Feature Selection:** `bestglm`, `step()` 
-
----
-
-**Author:** Mia Parker  
-**Language:** R  
-
----
