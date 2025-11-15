@@ -36,7 +36,7 @@ Predict accident severity (1–4) using demographic, environmental, and weather-
 - Examined accident frequency by month and hour  
 - Mapped accidents by city using `leaflet`  
 
-*Visuals: (Insert generated plots here)*  
+**Visuals:**  
 - Histogram of Severity  
 - Accidents per Month  
 - Accidents by Hour  
@@ -45,7 +45,7 @@ Predict accident severity (1–4) using demographic, environmental, and weather-
 
 ---
 
-## Milestone 1: k-Nearest Neighbors (kNN)
+## Part 1: k-Nearest Neighbors (kNN)
 
 **Goal:** Classify accident severity using environmental and demographic predictors.
 
@@ -59,7 +59,8 @@ Predict accident severity (1–4) using demographic, environmental, and weather-
 - **k = 23** gave the highest accuracy  
 - *Accuracy:* ~72%  
 
-*Visual: Accuracy vs. Neighborhood Size plot*
+**Visual:**
+- Accuracy vs. Neighborhood Size plot
 
 ---
 
@@ -79,9 +80,9 @@ Predict accident severity (1–4) using demographic, environmental, and weather-
 - **Low population → linked to moderate crashes (Severity 2)**  
 - **Population** emerged as the strongest predictor, followed by **density** and **humidity**  
 
-*Visuals:*  
+**Visuals:**
 - Classification tree diagram  
-- Variable importance plot (from `vip`)
+- Variable importance plot
 
 ---
 
@@ -101,7 +102,7 @@ Predict accident severity (1–4) using demographic, environmental, and weather-
 - Weather features (temperature, humidity, wind) had weaker effects  
 - **Demographic context (population, density)** remained dominant predictors  
 
-*Visuals:*  
+**Visuals:**
 - Correlation matrix (`GGally`)  
 - Logistic regression fit plots
  
